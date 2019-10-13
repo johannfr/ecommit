@@ -21,7 +21,9 @@ git ecommit --emoji bug -m "The thing was buggy"
 For a full list of supported emojis, specify a non-existing keyword, such as `help`:
 ```bash
 git ecommit --emoji help
+```
 
+```
 ♿ access: Improving accessibility
 📈 ana: Adding analytics or tracking code
 🤖 android: Fixing Android specific functionality
