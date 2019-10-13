@@ -23,65 +23,65 @@ For a full list of supported emojis, specify a non-existing keyword, such as `he
 git ecommit --emoji help
 ```
 
-♿ access: Improving accessibility
-📈 ana: Adding analytics or tracking code
-🤖 android: Fixing Android specific functionality
-🏗 arch: Making architectural changes
-🍱 assets: Adding or updating assets
-📦 bin: Updating compiled files or packages
-💥 break: Introducing breaking changes
-🐛 bug: Fixing a bug
-👷 ciadd: Adding continuous integration CI build system
-💚 cifix: Fixing continuous integration CI build
-🔧 conf: Changing configuration files
-👥 contrib: Adding contributor
-🗃 db: Performing database related changes
-➕ depadd: Adding a dependency
-⬇️ depdown: Downgrading dependencies
-🚀 deploy: Deploying stuff
-➖ deprm: Removing a dependency
-⬆️ depup: Upgrading dependencies
-📝 doc: Writing documentation
-🐳 docker: Docker functionality
-💡 docsrc: Documenting source code
-🍻 drunk: Writing code drunkenly
-🥚 easteregg: Adding an easter egg
-⚗ experiment: Experimenting with new things
-👽 extapi: Updating code due to external API changes
-🎨 format: Improving structure or format of code
-🙈 gitignore: Adding or updating .gitignore
-🚑 hotfix: Critical hotfix
-🌐 i18n: Internationalization and localization
-🎉 init: Initial commit
-🍏 ios: Fixing iOS specific functionality
-☸️ kubernetes: Kubernetes functionality
-📄 lic: Adding or updating license
-🚨 linter: Removing linter warnings
-🐧 linux: Fixing Linux specific functionality
-🔊 logadd: Adding logs
-🔇 logrm: Removing logs
-🍎 macos: Fixing macOS specific functionality
-🔀 merge: Merging branches
-🤡 mock: Mocking things
-🚚 mv: Moving or renaming files
-✨ new: Introducing new features
-⚡️ perf: Improving performance
-📌 pin: Pinning dependencies to specific versions
-🚧 progress: Work in progress
-♻️ refactor: Refactoring code
-📱 responsive: Working on responsive design
-⏪ revert: Reverting changes
-👌 review: Updating code due to code review changes
-🔥 rm: Removing code or files
-🔒 sec: Fixing security issues
-🔍 seo: Improving search engine optimization SEO
-💩 shit: Writing bad code that needs to be improved
-📸 snapshit: Adding or updating snapshots
-🔖 tag: Release or version tags
-✅ tests: Updating tests
-💬 text: Updating text and literals
-🏷️ types: Adding or updating types
-✏️ typo: Fixing typos
-💄 ui: Updating user interface UI and style files
-🚸 ux: Improving user experience UX usability
-🏁 win: Fixing Windows specific functionality
+♿ access: Improving accessibility<br />
+📈 ana: Adding analytics or tracking code<br />
+🤖 android: Fixing Android specific functionality<br />
+🏗 arch: Making architectural changes<br />
+🍱 assets: Adding or updating assets<br />
+📦 bin: Updating compiled files or packages<br />
+💥 break: Introducing breaking changes<br />
+🐛 bug: Fixing a bug<br />
+👷 ciadd: Adding continuous integration CI build system<br />
+💚 cifix: Fixing continuous integration CI build<br />
+🔧 conf: Changing configuration files<br />
+👥 contrib: Adding contributor<br />
+🗃 db: Performing database related changes<br />
+➕ depadd: Adding a dependency<br />
+⬇️ depdown: Downgrading dependencies<br />
+🚀 deploy: Deploying stuff<br />
+➖ deprm: Removing a dependency<br />
+⬆️ depup: Upgrading dependencies<br />
+📝 doc: Writing documentation<br />
+🐳 docker: Docker functionality<br />
+💡 docsrc: Documenting source code<br />
+🍻 drunk: Writing code drunkenly<br />
+🥚 easteregg: Adding an easter egg<br />
+⚗ experiment: Experimenting with new things<br />
+👽 extapi: Updating code due to external API changes<br />
+🎨 format: Improving structure or format of code<br />
+🙈 gitignore: Adding or updating .gitignore<br />
+🚑 hotfix: Critical hotfix<br />
+🌐 i18n: Internationalization and localization<br />
+🎉 init: Initial commit<br />
+🍏 ios: Fixing iOS specific functionality<br />
+☸️ kubernetes: Kubernetes functionality<br />
+📄 lic: Adding or updating license<br />
+🚨 linter: Removing linter warnings<br />
+🐧 linux: Fixing Linux specific functionality<br />
+🔊 logadd: Adding logs<br />
+🔇 logrm: Removing logs<br />
+🍎 macos: Fixing macOS specific functionality<br />
+🔀 merge: Merging branches<br />
+🤡 mock: Mocking things<br />
+🚚 mv: Moving or renaming files<br />
+✨ new: Introducing new features<br />
+⚡️ perf: Improving performance<br />
+📌 pin: Pinning dependencies to specific versions<br />
+🚧 progress: Work in progress<br />
+♻️ refactor: Refactoring code<br />
+📱 responsive: Working on responsive design<br />
+⏪ revert: Reverting changes<br />
+👌 review: Updating code due to code review changes<br />
+🔥 rm: Removing code or files<br />
+🔒 sec: Fixing security issues<br />
+🔍 seo: Improving search engine optimization SEO<br />
+💩 shit: Writing bad code that needs to be improved<br />
+📸 snapshit: Adding or updating snapshots<br />
+🔖 tag: Release or version tags<br />
+✅ tests: Updating tests<br />
+💬 text: Updating text and literals<br />
+🏷️ types: Adding or updating types<br />
+✏️ typo: Fixing typos<br />
+💄 ui: Updating user interface UI and style files<br />
+🚸 ux: Improving user experience UX usability<br />
+🏁 win: Fixing Windows specific functionality<br />
