@@ -94,13 +94,6 @@ def cli(emoji, message, commit_args):
     git_commit_message += " " + " ".join(message) if len(message) > 0 else ""
     git_commit_cmd.extend(["-m", git_commit_message])
     git_commit_cmd.extend(["-e"] if len(message) < 1 else [])
-    git_commit_cmd.extend(
-        list(
-            itertools.chain.from_iterable(
-                [["-m", m] for m in message]
-            )
-        )
-    )
     git_commit_cmd.extend(commit_args)
     call(git_commit_cmd)
 
