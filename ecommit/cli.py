@@ -1,7 +1,6 @@
 import click
 from subprocess import call
 from sys import exit
-import itertools
 
 TYPES = {
     "format": ["🎨", "Improving structure or format of code"],
