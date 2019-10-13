@@ -7,7 +7,7 @@ A simple utility for adding emojis to commit messages.
 ```bash
 pip3 install --user git+https://github.com/johannfr/ecommit.git
 ```
-Assuming you have a bin-folder under $HOME and it is in your PATH:
+Assuming you have a `bin`-folder under `$HOME` and it is in your `$PATH`:
 ```bash
 sudo ln -s $(which ecommit) ~/bin/git-ecommit
 ```
