@@ -23,7 +23,6 @@ For a full list of supported emojis, specify a non-existing keyword, such as `he
 git ecommit --emoji help
 ```
 
-```
 ♿ access: Improving accessibility
 📈 ana: Adding analytics or tracking code
 🤖 android: Fixing Android specific functionality
@@ -86,4 +85,3 @@ git ecommit --emoji help
 💄 ui: Updating user interface UI and style files
 🚸 ux: Improving user experience UX usability
 🏁 win: Fixing Windows specific functionality
-```
