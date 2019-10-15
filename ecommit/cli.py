@@ -80,8 +80,9 @@ def cli(emoji, message, commit_args):
         if e in TYPES.keys():
             emoji_list.append(TYPES[e][0])
         else:
+            click.echo("Unknown type: {}".format(e), err=True)
             for k in sorted(TYPES.keys()): # Sorted might be ugly, but at least consistent
-                click.echo("{icon} {key}: {desc}".format(key=k, icon=TYPES[k][0], desc=TYPES[k][1]))
+                click.echo("{icon} {key}: {desc}".format(key=k, icon=TYPES[k][0], desc=TYPES[k][1]), err=True)
             exit(1)
 
     git_commit_cmd = [
