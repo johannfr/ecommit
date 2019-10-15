@@ -20,6 +20,12 @@ Takes the `--emoji` argument and prepends it to commit messages. Passes all othe
 ```bash
 git ecommit --emoji bug -m "The thing was buggy"
 ```
+
+### Demo
+
+[![asciicast](https://asciinema.org/a/hyCerZz5dTCFPszqDRKmaxthG.svg)](https://asciinema.org/a/hyCerZz5dTCFPszqDRKmaxthG)
+
+
 ### List of emojis
 For a full list of supported emojis, specify a non-existing keyword, such as `help`:
 ```bash
