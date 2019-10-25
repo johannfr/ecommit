@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='ecommit',
+    name='git-ecommit',
     version='0.1',
     packages=find_packages(),
     install_requires=[
@@ -9,6 +9,6 @@ setup(
     ],
     entry_points='''
         [console_scripts]
-        ecommit=ecommit.cli:cli
+        git-ecommit=ecommit.cli:cli
     ''',
 )

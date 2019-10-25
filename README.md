@@ -1,15 +1,11 @@
-# ecommit
+# git-ecommit
 
 A simple utility for adding emojis to commit messages.
 
 ## Installation
 
 ```bash
-pip3 install --user git+https://github.com/johannfr/ecommit.git
-```
-Assuming you have a `bin`-folder under `$HOME` and it is in your `$PATH`:
-```bash
-ln -s $(which ecommit) ~/bin/git-ecommit
+pip3 install --user git+https://github.com/johannfr/git-ecommit.git
 ```
 
 ## Usage
@@ -20,11 +16,6 @@ Takes the `--emoji` argument and prepends it to commit messages. Passes all othe
 ```bash
 git ecommit --emoji bug -m "The thing was buggy"
 ```
-
-### Demo
-
-[![asciicast](https://asciinema.org/a/hyCerZz5dTCFPszqDRKmaxthG.svg)](https://asciinema.org/a/hyCerZz5dTCFPszqDRKmaxthG)
-
 
 ### List of emojis
 For a full list of supported emojis, specify a non-existing keyword, such as `help`:
