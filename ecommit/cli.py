@@ -60,19 +60,18 @@ TYPES = {
     "mock": ["🤡", "Mocking things"],
     "easteregg": ["🥚", "Adding an easter egg"],
     "gitignore": ["🙈", "Adding or updating .gitignore"],
-    "snapshit": ["📸", "Adding or updating snapshots"],
+    "snapshot": ["📸", "Adding or updating snapshots"],
     "experiment": ["⚗", "Experimenting with new things"],
     "seo": ["🔍", "Improving search engine optimization SEO"],
     "kubernetes": ["☸️", "Kubernetes functionality"],
-    "types": ["🏷️", "Adding or updating types"]
+    "types": ["🏷️", "Adding or updating types"],
 }
 
-@click.command(context_settings=dict(
-    ignore_unknown_options=True,
-))
+
+@click.command(context_settings=dict(ignore_unknown_options=True,))
 @click.option("--emoji", required=True, multiple=True)
 @click.option("-m", "--message", multiple=True)
-@click.argument('commit_args', nargs=-1, type=click.UNPROCESSED)
+@click.argument("commit_args", nargs=-1, type=click.UNPROCESSED)
 def cli(emoji, message, commit_args):
     """A simple utility for prepending commit-messages with an emoji."""
     emoji_list = []
@@ -81,8 +80,15 @@ def cli(emoji, message, commit_args):
             emoji_list.append(TYPES[e][0])
         else:
             click.echo("Unknown type: {}".format(e), err=True)
-            for k in sorted(TYPES.keys()): # Sorted might be ugly, but at least consistent
-                click.echo("{icon} {key}: {desc}".format(key=k, icon=TYPES[k][0], desc=TYPES[k][1]), err=True)
+            for k in sorted(
+                TYPES.keys()
+            ):  # Sorted might be ugly, but at least consistent
+                click.echo(
+                    "{icon} {key}: {desc}".format(
+                        key=k, icon=TYPES[k][0], desc=TYPES[k][1]
+                    ),
+                    err=True,
+                )
             exit(1)
 
     git_commit_cmd = [
@@ -96,6 +102,7 @@ def cli(emoji, message, commit_args):
     git_commit_cmd.extend(["-e"] if len(message) < 1 else [])
     git_commit_cmd.extend(commit_args)
     call(git_commit_cmd)
+
 
 if __name__ == "__main__":
     cli()

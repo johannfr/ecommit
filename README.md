@@ -45,7 +45,7 @@ git ecommit --emoji help
 🐳 docker: Docker functionality<br />
 💡 docsrc: Documenting source code<br />
 🍻 drunk: Writing code drunkenly<br />
-🥚 easteregg: Adding an easter egg<br />
+🥚 easteregg: Adding an Easter egg<br />
 ⚗ experiment: Experimenting with new things<br />
 👽 extapi: Updating code due to external API changes<br />
 🎨 format: Improving structure or format of code<br />
@@ -76,7 +76,7 @@ git ecommit --emoji help
 🔒 sec: Fixing security issues<br />
 🔍 seo: Improving search engine optimization SEO<br />
 💩 shit: Writing bad code that needs to be improved<br />
-📸 snapshit: Adding or updating snapshots<br />
+📸 snapshot: Adding or updating snapshots<br />
 🔖 tag: Release or version tags<br />
 ✅ tests: Updating tests<br />
 💬 text: Updating text and literals<br />
