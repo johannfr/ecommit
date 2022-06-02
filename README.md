@@ -14,7 +14,10 @@ Takes the `--emoji` argument and prepends it to commit messages. Passes all othe
 
 ### Example
 ```bash
-git ecommit --emoji bug -m "The thing was buggy"
+$ git ecommit --emoji bug -m "The thing was buggy"
+[main (root-commit) 0022758] 🐛 The thing was buggy
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 foobar
 ```
 
 ### List of emojis
